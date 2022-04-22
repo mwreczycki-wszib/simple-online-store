@@ -1,0 +1,17 @@
+INSERT INTO tax_rate (id, rate) VALUES (1, 0.23)
+INSERT INTO tax_rate (id, rate) VALUES (2, 0.03)
+INSERT INTO tax_rate (id, rate) VALUES (3, 0.40)
+INSERT INTO tax_rate (id, rate) VALUES (4, 0.22)
+INSERT INTO tax_rate (id, rate) VALUES (5, 0.08)
+
+INSERT INTO product_category (id, name, tax_rate_id) VALUES (6, 'first', 1)
+INSERT INTO product_category (id, name, tax_rate_id) VALUES (7, 'second', 2)
+INSERT INTO product_category (id, name, tax_rate_id) VALUES (8, 'third', 3)
+INSERT INTO product_category (id, name, tax_rate_id) VALUES (9, 'fourth', 4)
+INSERT INTO product_category (id, name, tax_rate_id) VALUES (10, 'fifth', 5)
+
+INSERT INTO product (id, name, category_id, price, amount) VALUES (11, 'first product', 6, 35.5, 7)
+INSERT INTO product (id, name, category_id, price, amount) VALUES (12, 'second product', 7, 1023, 2)
+INSERT INTO product (id, name, category_id, price, amount) VALUES (13, 'third product', 8, 4.5, 64)
+INSERT INTO product (id, name, category_id, price, amount) VALUES (14, 'fourth product', 9, 13, 13)
+INSERT INTO product (id, name, category_id, price, amount) VALUES (15, 'fifth product', 10, 23, 5)

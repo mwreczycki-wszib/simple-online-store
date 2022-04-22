@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: shoppingcarttestemailwszib@gmail.com
+    password: .asdf1234ASDF
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
